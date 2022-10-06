@@ -1,0 +1,159 @@
+#main {
+
+}
+
+#header {
+    height: 48px;
+    background-color: var(--black-color);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav__item {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--white-color);
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.subnav {
+    background-color: #444;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    display: none;
+}
+
+.subnav__item {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    text-decoration: none;
+    line-height: 44px;
+    padding: 0 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.header__btn {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    line-height: 48px;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#banner {
+    padding-top: 60px;
+    background-color: #000;
+}
+
+.banner__text {
+    text-align: center;
+}
+
+.banner__img {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    background: url(../img/banner/iPhone14.jpg) top center / cover no-repeat;
+}
+
+.text__heading {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.text__heading,
+.text__desc {
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+}
+
+.text__desc {
+    font-size: 1.8rem;
+}
+
+#content {
+
+}
+
+.content-section {
+    background-color: var(--black-color);
+    max-width: 100%;
+    padding: 64px 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+#products__list {
+}
+
+.products__img {
+    width: 60%;
+    margin-top: 32px;
+}
+
+.products__desc {
+    margin-top: 1.6rem;
+}
+
+.products__price {
+    margin-top: 16px;
+    font-size: 2rem;
+}
+
+.contact__info {
+    margin-top: 32px !important;
+}
+
+.info__heading {
+    color: #fff;
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.info__desc {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.info__desc a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text__desc a {
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.footer__copyright {
+
+}
