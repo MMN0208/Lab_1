@@ -128,7 +128,7 @@
 
 .products__img {
     width: 60%;
-    margin-top: 32px;
+    padding-top: 48px;
 }
 
 .products__desc {
@@ -141,7 +141,7 @@
 }
 
 .contact__info {
-    margin-top: 32px !important;
+    margin-top: 48px !important;
 }
 
 .info__heading {
