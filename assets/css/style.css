@@ -79,7 +79,7 @@
 
 #banner {
     padding-top: 60px;
-    background-color: #000;
+    background-color: var(--black-color);
 }
 
 .banner__text {
@@ -100,7 +100,7 @@
 
 .text__heading,
 .text__desc {
-    color: #fff;
+    color: var(--white-color);
     text-shadow: 0 0 4px #000;
 }
 
@@ -145,24 +145,24 @@
 }
 
 .info__heading {
-    color: #fff;
+    color: var(--white-color);
     font-size: 2.0rem;
     font-weight: 500;
     margin-top: 16px;
 }
 
 .info__desc {
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.6rem;
 }
 
 .info__desc a {
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
 }
 
 .info__desc a:hover {
-    color: #fff;
+    color: var(--white-color);
     opacity: 0.8;
 }
 
@@ -171,9 +171,9 @@
 }
 
 #footer {
-    background-color: #000;
+    background-color: var(--black-color);
     text-align: center;
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.2rem;
 }
 
