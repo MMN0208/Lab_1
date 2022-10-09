@@ -18,6 +18,10 @@
     justify-content: flex-start;
 }
 
+#nav div:hover .subnav {
+    display: block;
+}
+
 .nav__item {
     font-size: 1.8rem;
     font-weight: 500;
@@ -28,6 +32,11 @@
     padding: 0 20px;
     display: block;
     cursor: pointer;
+}
+
+.nav__item:hover {
+    color: var(--black-color);
+    background-color: var(--white-color);
 }
 
 .subnav {
@@ -46,6 +55,11 @@
     cursor: pointer;
 }
 
+.subnav__item:hover {
+    color: var(--black-color);
+    background-color: #ccc;
+}
+
 .header__btn {
     font-size: 1.8rem;
     font-weight: 500;
@@ -57,6 +71,10 @@
     top: 0;
     right: 0;
     cursor: pointer;
+}
+
+.header__btn:hover {
+    opacity: 0.8;
 }
 
 #banner {
@@ -141,6 +159,11 @@
 .info__desc a {
     color: #fff;
     text-decoration: none;
+}
+
+.info__desc a:hover {
+    color: #fff;
+    opacity: 0.8;
 }
 
 .text__desc a {
