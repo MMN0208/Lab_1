@@ -1,9 +1,33 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 #main {
 
 }
 
 #header {
-    height: 48px;
+    height: 47px;
     background-color: var(--black-color);
     position: fixed;
     top: 0;
@@ -14,50 +38,21 @@
 }
 
 #nav {
-    display: flex;
-    justify-content: flex-start;
+    font-size: 1.8rem !important;
+    background-color: var(--black-color);
 }
 
-#nav div:hover .subnav {
-    display: block;
-}
-
-.nav__item {
-    font-size: 1.8rem;
+#nav .store-name {
+    font-size: 2.0rem !important;
     font-weight: 500;
-    text-align: center;
-    color: var(--white-color);
-    text-decoration: none;
-    line-height: 48px;
-    padding: 0 20px;
-    display: block;
-    cursor: pointer;
-}
-
-.nav__item:hover {
-    color: var(--black-color);
-    background-color: var(--white-color);
 }
 
 .subnav {
-    background-color: #444;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-    display: none;
-}
-
-.subnav__item {
-    font-size: 1.6rem;
     color: var(--white-color);
-    text-decoration: none;
-    line-height: 44px;
-    padding: 0 20px;
-    display: block;
-    cursor: pointer;
 }
 
-.subnav__item:hover {
-    color: var(--black-color);
-    background-color: #ccc;
+.subnav-item {
+    font-size: 1.6rem !important;
 }
 
 .header__btn {
@@ -65,11 +60,8 @@
     font-weight: 500;
     color: var(--white-color);
     background-color: var(--black-color);
-    line-height: 48px;
-    padding: 0 20px;
-    position: absolute;
-    top: 0;
-    right: 0;
+    line-height: 47px;
+    padding-right: 20px;
     cursor: pointer;
 }
 
@@ -78,7 +70,7 @@
 }
 
 #banner {
-    padding-top: 60px;
+    padding-top: 72px;
     background-color: var(--black-color);
 }
 
@@ -127,8 +119,8 @@
 }
 
 .products__img {
-    width: 60%;
-    padding-top: 48px;
+    height: 272px;
+    padding-top: 54px;
 }
 
 .products__desc {
@@ -141,7 +133,7 @@
 }
 
 .contact__info {
-    margin-top: 48px !important;
+    margin-top: 54px !important;
 }
 
 .info__heading {
